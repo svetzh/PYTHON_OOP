@@ -26,6 +26,7 @@ class Time:
                 self.hours += 1
                 if self.hours > Time.max_hours:
                     self.hours = 0
+
         return self.get_time()
 
 
