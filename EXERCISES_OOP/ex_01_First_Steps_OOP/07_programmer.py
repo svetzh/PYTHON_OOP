@@ -22,10 +22,10 @@ class Programmer:
         return f"{self.name} needs {skills_needed - self.skills} more skills"
 
 
-programmer = Programmer("John", "Java", 50) #done
-print(programmer.watch_course("Python Masterclass", "Python", 84)) #done
-print(programmer.change_language("Java", 30)) #done
-print(programmer.change_language("Python", 100)) #done
-print(programmer.watch_course("Java: zero to hero", "Java", 50)) #done
+programmer = Programmer("John", "Java", 50)
+print(programmer.watch_course("Python Masterclass", "Python", 84))
+print(programmer.change_language("Java", 30))
+print(programmer.change_language("Python", 100))
+print(programmer.watch_course("Java: zero to hero", "Java", 50))
 print(programmer.change_language("Python", 100))
 print(programmer.watch_course("Python Masterclass", "Python", 84))
