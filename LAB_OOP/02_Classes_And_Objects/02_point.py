@@ -3,11 +3,14 @@ class Point:
         self.x = x
         self.y = y
 
-    def set_x(self):
-        pass
+    def set_x(self, value: int):
+        self.x = value
 
-    def set_y(self):
-        pass
+    def set_y(self, value: int):
+        self.y = value
+
+    def __str__(self):
+        return f"The point has coordinates ({self.x},{self.y})"
 
 
 p = Point(2, 4)
