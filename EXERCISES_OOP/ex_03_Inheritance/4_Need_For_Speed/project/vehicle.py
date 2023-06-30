@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Vehicle:
     DEFAULT_FUEL_CONSUMPTION = 1.25
 
@@ -12,7 +12,6 @@ class Vehicle:
         if needed_fuel <= self.fuel:
             self.fuel -= needed_fuel
 
-=======
 class Vehicle:
     DEFAULT_FUEL_CONSUMPTION = 1.25
 
@@ -26,4 +25,3 @@ class Vehicle:
         if needed_fuel <= self.fuel:
             self.fuel -= needed_fuel
 
->>>>>>> 276765b8e88ecb03013f4fe22c25ddcd3699ae0d
